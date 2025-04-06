@@ -1,0 +1,501 @@
+{
+  "title": "Jorge Marcel Peimbertd Galindo Resume",
+  "about": "",
+  "Summary": [
+    "7+ years of experience developing, implementing and analyzing web application.",
+    "Strong React experience coding stateful and stateless components. Further familiarized with the life cycle components, context and JSX.",
+    "Extensively work on React Native framework to write, build and test APK/IPA.",
+    "Used Redux to enhance React applications serving one way bind data flow injecting the data only to components subscribed, React-Router for routing between pages. ",
+    "Expert in Typescript for typo code to avoid errors and make pure functions.",
+    "Expert in HTML5 implementing correct semantic typing, CSS3 with advance knowledge in animations/transitions, and object-oriented JavaScript programming.",
+    "Very Proficient on NodeJS servers in back end creating them with Express aided by middlewares such as body-parser, cookie-parser, express-session, passport, jwt.",
+    "Worked with NodeJS as development tool with a package of technologies such as Webpack, webpack-server, Typescript, Babel, css-loader, html-loader, and create-react-app.",
+    "Able to deploy Microservices in AWS assisted by Kubernetes and Docker.",
+    "Experience in docker-compose for a quick build and mount of an image in a container, Further knowledge in YAML config files for Kubernetes, docker and AWS.",
+    "Utilized preprocessors such as Handlebars, pug for html and SASS for CSS files.",
+    "Used Agile methodology with Scrum and Feature processes to develop applications.",
+    "Expert knowledge in JS concepts (closures, prototype, scope, context and hoisting).",
+    "Competent in ES6 awareness typing features such as Promises, Classes, Arrow functions, destructuring, rest/spread operator, async/await, among others.",
+    "Experienced using design patterns structural, behavioral and creational such as Module, Singleton, Pub/Sub, Constructor, Factory, MV* (MVC, MVP, MVVM).",
+    "Excellent working in front end with React, React Native or jQuery.",
+    "Able to do correct Restful web services to serve assets. Further excellent integration of CRUD in the web service for management of DB resources.",
+    "Vast knowledge in NPM and Yarn to get modules and libraries packages. Further how package json works between the different type of dependencies.",
+    "Used Webpack bundler to transpile, minified, and bundle code.",
+    "Expert on GIT VCS used only git bash to type commands and configuration of GIT.",
+    "Excellent testing knowledge regarding BDD and TDD, creating test suites and unit tests running them on Mocha or Jest, and complementing with Sinon, Chai.",
+    "Was in involved in identifying well known of cross browser issues and polyfills for solutions and compatibility. Worked with MongoDB databases reaching endpoint through Mongoose."
+  ],
+  "education": {
+    "title": "EDUCATION AND TRAINING",
+    "degree": "B.S. in Mechatronics Engineer",
+    "school": "Universidad Autónoma de Guadalajara (Guadalajara, Jalisco, Mexico)"
+  },
+  "hobbies": [],
+  "skills": [
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "Reactjs",
+      "logo": "react_logo.png",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "HTML",
+      "logo": "html_logo.png",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "javascript",
+      "logo": "javascript_logo.png",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "CSS",
+      "logo": "css_logo.png",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "jQuery",
+      "logo": "jquery_logo.png",
+      "experience": 3,
+      "experienceLabel": "3 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "code language",
+      "name": "C#",
+      "logo": "csharp_logo.png",
+      "experience": 5,
+      "experienceLabel": "5+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "code language",
+      "name": "C++",
+      "logo": "cpp_logo.png",
+      "experience": 2,
+      "experienceLabel": "2 years + 2y school projects"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "code language",
+      "name": "python",
+      "logo": "python_logo.png",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Framework Web",
+      "name": "FastApi",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "DB Web library",
+      "name": "MomentJs",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Log Web Analizer",
+      "name": "Splunk",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "Git",
+      "logo": "git_logo.png",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "GitHub",
+      "logo": "github_logo.png",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "GitHub actions",
+      "experience": 4,
+      "experienceLabel": "4 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "Kubernetes",
+      "logo": "kubernetes_logo.png",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "AWS",
+      "logo": "aws_logo.png",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "Docker",
+      "logo": "docker_logo.png",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Mobile",
+      "name": "React Native",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "Redux",
+      "logo": "redux_logo.png",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "ExpressJS",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "Helmet",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "Babel",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Mobile",
+      "name": "React Navigation",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Debug",
+      "name": "Chrome Developer Tools",
+      "logo": "chrome_logo.png",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "Perforce",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Version Control",
+      "name": "Anthill",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Messager Ticketing",
+      "name": "Jira",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Editor",
+      "name": "VSCode",
+      "logo": "vscode_logo.png",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web",
+      "name": "LinterJS",
+      "experience": 8,
+      "experienceLabel": "8+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "DB Web",
+      "name": "MongoDB",
+      "logo": "mongodb_logo.png",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Testing",
+      "name": "Jest",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Framework",
+      "name": "Bootstrap",
+      "logo": "bootstrap_logo.png",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "Web Typing",
+      "name": "Typescript",
+      "experience": 6,
+      "experienceLabel": "6+ years"
+    },
+    {
+      "category": "technology",
+      "subCatergory": "DB Web Driver",
+      "name": "Mongoose",
+      "experience": 2,
+      "experienceLabel": "2 years"
+    },
+    {
+      "category": "personal",
+      "subCatergory": "passive",
+      "name": "Best Practices",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "personal",
+      "subCatergory": "Knowledge",
+      "name": "Architectural Patterns",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "personal",
+      "subCatergory": "Knowledge",
+      "name": "Design Patterns",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "personal",
+      "subCatergory": "Knowledge",
+      "name": "Algorithms and efficency",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "personal",
+      "subCatergory": "Knowledge",
+      "name": "functional programming",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    },
+    {
+      "category": "personal",
+      "subCatergory": "Knowledge",
+      "name": "OOP",
+      "experience": 12,
+      "experienceLabel": "12+ years"
+    }
+  ],
+  "projects": [
+    {
+      "startDate": "05/2012",
+      "endDate": "12/2013",
+      "position": "Design Engineer",
+      "company": "IDER",
+      "companyCategory": "Manufacturer",
+      "pojectName": "new Product designer",
+      "description": "Develop and design new products",
+      "responsabilities": [
+        "Design Final Product (create drawing planes, bill of material, 3D modeling product)",
+        "Project CNC Automatization (Search and implement a CAM Program for CNC                        Puncher)",
+        "Review constantly the production, and report the advances"
+      ]
+    },
+    {
+      "startDate": "12/2013",
+      "endDate": "09/2014",
+      "position": "Business Coordinator",
+      "company": "FERCAR",
+      "companyCategory": "Manufacturer",
+      "pojectName": "Design, Quote, Management of new products",
+      "description": "Coordinate the process of new products, Designing new products, Quoting them for the final price, Management and review of the manufacturing process",
+      "responsabilities": [
+        "Design Final product",
+        "Quality inspector",
+        "Coordinate production",
+        "Buy Materials",
+        "Transport materials",
+        "Report costs of each product "
+      ]
+    },
+    {
+      "startDate": "09/2014",
+      "endDate": "07/2015",
+      "position": "Partial Teacher",
+      "company": "Universidad Autónoma de Guadalajara",
+      "companyCategory": "School",
+      "pojectName": "Partial Teacher",
+      "description": "To teach the subjects of Probability, Materials resistance, Fluids, and Automatization",
+      "responsabilities": [
+        "Prepare each class",
+        "Report Qualifications",
+        "Teach to a group of students"
+      ]
+    },
+    {
+      "startDate": "07/2015",
+      "endDate": "05/2017",
+      "position": "Computer Engineer",
+      "company": "Softek",
+      "companyCategory": "IT",
+      "pojectName": "Back-End Merchant Side For Sony",
+      "description": "Development new API and Maintenance of the servers in charge of bank transactions for Sony networks, and user’s playstationstore account bank information",
+      "responsabilities": [
+        "To Develop new applications in c++ language, under the diferent services, like paypal, worldpay, adyen",
+        "Integrate new c++ API into the server-side, like limit the cards the user can register, and add the new service to store secure the card number inside databases",
+        "Building new cross language API with protobuffers(Google’s API), for the communication between c++ (back-end) and java (front-end)",
+        "Find and resolve errors on the system",
+        "Test changes",
+        "Continuous integration and continuous deployment with the Jenkins web tool",
+        "Continuous communication with the client",
+        "Participate in daily scrum meetings with all the team",
+        "Participate each 4 months in a planning meeting at California Sony’s Offices where a lot of teams assists, to enroll our team in the work of the next 3 months following the AGILE",
+        "Split task following the AGILE methodology and the Fibonacci points method",
+        "Worked with the control version System Perforce at most the time, and migration to git in the last 6 months  of my project"
+      ]
+    },
+    {
+      "startDate": "07/2015",
+      "endDate": "05/2017",
+      "position": "Computer Engineer",
+      "company": "Softek",
+      "companyCategory": "IT",
+      "pojectName": "3-D secure in PlaystationStore",
+      "description": "A security service with the most recent secure technology that ask for the security pin of user’s debit/credit bank card when they payment method are debit/credit card with bank account that supports this new technology, implemented at first only for Europe but develop to be flexible and it can be easy configure to work in any region, country or state",
+      "responsabilities": [
+        "Design new API and document the importance, instructions, and develop of the new API",
+        "Work with a third-party service to send Ajax calls to them with the info about the transactions",
+        "Get java front-end information throught protobuffer API.",
+        "Test changes",
+        "Continuous integration and continuous deployment with the Jenkins web tool",
+        "Continuous communication with the client and the third-party service",
+        "Participate in daily scrum meetings with all the team",
+        "Participate in multi-teams meetings to be updated about the advances in the front-end to match and test the services",
+        "Split task following the AGILE methodology and the Fibonacci points method",
+        "Worked with the control version System GIT"
+      ]
+    },
+    {
+      "startDate": "08/2017",
+      "endDate": "11/2018",
+      "position": "Computer Engineer",
+      "company": "TEKMEXICO",
+      "companyCategory": "IT",
+      "pojectName": "web communication protocol system",
+      "description": "A web application to create communication networks, implementing a communication system for the company, adding multiple services as notifications, User preferences, multilingual service",
+      "responsabilities": [
+        "Implement client-side scripts with Reactjs that includes basic functions and API for Ajax calls",
+        "Applying the latest HTML5 and CSS3",
+        "Use of design patterns in front-end and back-end for a better arquitecture of the code.",
+        "Implementation of the reduxjs library in front-end to take control of flow information.",
+        "Buildup a server with ExpressJS for the back-end implementing middleware libraries like helmet, body-parser, mongoose, passport, jwt, among others",
+        "Splitting the back-end services into micro-services with docker and kubernetes",
+        "Working with the control version system GIT to keep track of the overall project changes",
+        "Participate in daily scrum meetings with the Management and leadership team"
+      ]
+    },
+    {
+      "startDate": "02/2019",
+      "endDate": "02/2022",
+      "position": "Computer Engineer",
+      "company": "EOG Resources",
+      "companyCategory": "IT",
+      "pojectName": "LandTracking – still in maintenance",
+      "description": "Single Web Page App that allow user to search for leases stored in oracle databases, add new leases/contracts, edit and cancel. It will allow user to keep track of payments and to create checks to print and pay",
+      "responsabilities": [
+        "Design new API and document the importance, instructions, and develop of the new API",
+        "Work with a third-party service to send Ajax calls to them with the info about the transactions",
+        "Get java front-end information throught protobuffer API.",
+        "Test changes",
+        "Continuous integration and continuous deployment with the Jenkins web tool",
+        "Continuous communication with the client and the third-party service",
+        "Participate in daily scrum meetings with all the team",
+        "Participate in multi-teams meetings to be updated about the advances in the front-end to match and test the services",
+        "Split task following the AGILE methodology and the Fibonacci points method",
+        "Worked with the control version System GIT"
+      ]
+    },
+    {
+      "startDate": "02/2022",
+      "endDate": "02/2023",
+      "position": "Computer Engineer",
+      "company": "EOG Resources",
+      "companyCategory": "IT",
+      "pojectName": "Configurable Data Component – still in maintenance",
+      "description": "Configurable Data Grid Package using DevExpress react Grid, Collegues will be able to download the package and implement a standard grid base on EOG requirements",
+      "responsabilities": [
+        "Design new API and document the importance, instructions, and develop of the new API",
+        "Work with a third-party service to send Ajax calls to them with the info about the transactions",
+        "Get java front-end information throught protobuffer API.",
+        "Test changes",
+        "Continuous integration and continuous deployment with the Jenkins web tool",
+        "Continuous communication with the client and the third-party service",
+        "Participate in daily scrum meetings with all the team",
+        "Participate in multi-teams meetings to be updated about the advances in the front-end to match and test the services",
+        "Split task following the AGILE methodology and the Fibonacci points method",
+        "Worked with the control version System GIT"
+      ]
+    },
+    {
+      "startDate": "02/2023",
+      "endDate": "present",
+      "position": "Computer Engineer",
+      "company": "EOG Resources",
+      "companyCategory": "IT",
+      "pojectName": "Comm Manager",
+      "description": "Single Web Page App that allow users to track financial letters to land owners. The app designed to avoid raw tracing, signing, writing of letters that land owners should receive to accept conditions and terms of legal contracts as well as invoice letters",
+      "responsabilities": [
+        "In charge of Design, architecture and planning of the app in UI and API scopes",
+        "Use of React to develop front end, using CDC(Configurable Data Component) for quick development",
+        "Use of FastAPI Python for API service, designing multiple microservices",
+        "Deployment of all services using CDCI with github actions, creation of image with Docker, storage of Image in Harbor, running docker container in Portainer following Docker-Swarm",
+        "Handling PDF serving, merging and checking QR codes inside the PDFs"
+      ]
+    }
+  ]
+}
