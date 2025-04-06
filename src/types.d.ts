@@ -5,4 +5,5 @@ interface Skill {
   experience: number;
   experienceLabel: string;
   barColor?: string;
+  logo?: string;
 }

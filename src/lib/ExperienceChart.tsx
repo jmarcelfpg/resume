@@ -1,4 +1,4 @@
-import { Circle } from "@mui/icons-material";
+import { Circle, School } from "@mui/icons-material";
 import {
   alpha,
   Avatar,
@@ -17,13 +17,10 @@ import { FC, useEffect, useMemo, useRef, useState } from "react";
 import {
   Bar,
   BarChart,
-  BarProps,
   CartesianGrid,
-  Customized,
   Label,
   LabelList,
   Legend,
-  Rectangle,
   ReferenceLine,
   ResponsiveContainer,
   XAxis,
@@ -31,6 +28,7 @@ import {
 } from "recharts";
 import { Props } from "recharts/types/component/DefaultLegendContent";
 import * as logos from "../logos";
+import { skills } from "../docs/resumeData";
 
 export const LegendList: (props: Props) => React.ReactNode = (props) => {
   const theme = useTheme();
@@ -65,9 +63,20 @@ export const LegendList: (props: Props) => React.ReactNode = (props) => {
       >
         {payload &&
           payload.map((entry, index) => {
+            let icon;
             const logo = (logos as { [key: string]: string })[
-              `${(entry.value as string).toLowerCase()}_logo`
+              `${(entry.value as string)
+                .replace(/\s.*/g, "")
+                .toLowerCase()}_logo`
             ];
+            if (!logo) {
+              const skillFound = skills.find(
+                (skill) => skill.name === entry.value
+              );
+              if (skillFound && skillFound.subCatergory === "Knowledge") {
+                icon = <School />;
+              }
+            }
 
             return (
               <>
@@ -94,7 +103,7 @@ export const LegendList: (props: Props) => React.ReactNode = (props) => {
                     {entry.value}
                   </ListItemText>
                   {logo && (
-                    <ListItemAvatar>
+                    <ListItemAvatar sx={{ minWidth: 56 / 2 }}>
                       <Avatar
                         variant="square"
                         alt={entry.value}
@@ -102,6 +111,11 @@ export const LegendList: (props: Props) => React.ReactNode = (props) => {
                         sx={{ width: 24, height: 24 }}
                       />
                     </ListItemAvatar>
+                  )}
+                  {icon && (
+                    <ListItemIcon sx={{ minWidth: 56 / 2 }}>
+                      {icon}
+                    </ListItemIcon>
                   )}
                 </ListItem>
               </>
@@ -214,65 +228,50 @@ export const ExperienceChart: FC<ExperienceChartProps> = (props) => {
                   dataKey="name"
                   position="insideBottom"
                   content={(props) => {
-                    const {
-                      x = 0,
-                      y = 0,
-                      width = 0,
-                      height = 0,
-                      value = "",
-                    } = props;
-                    const radius = 10;
+                    const { x = 0, y = 0, width = 0, height = 0 } = props;
+                    let finalX = +x + 2;
+                    let finalY = +y + +height - (+height + +width);
+                    let finalWidth = +width - 4;
+                    let schollFinalY = finalY - +height / 2 + +width / 2;
+                    if (finalY < 0) {
+                      finalY = 0;
+                    }
+                    if (finalX < 0) {
+                      finalX = 0;
+                    }
+                    if (finalWidth < 0) {
+                      finalWidth = 0;
+                    }
+                    if (schollFinalY < 0) {
+                      schollFinalY = 0;
+                    }
+
+                    const logo = (logos as { [key: string]: string })[
+                      `${(skill.name as string)
+                        .replace(/\s.*/g, "")
+                        .toLowerCase()}_logo`
+                    ];
+
+                    if (!logo && skill.subCatergory === "Knowledge") {
+                      return (
+                        <School
+                          x={finalX}
+                          y={finalY - +height / 2 + +width / 2}
+                          width={finalWidth}
+                          height={height}
+                        />
+                      );
+                    }
 
                     return (
-                      <g>
-                        <circle
-                          cx={+x + +width / 2}
-                          cy={+y - radius}
-                          r={radius}
-                          fill="#8884d8"
-                        />
-                        <text
-                          x={+x + +width / 2}
-                          y={+y - radius}
-                          fill="#fff"
-                          textAnchor="middle"
-                          dominantBaseline="middle"
-                        >
-                          {`${value}`.split(" ")[1]}
-                        </text>
-                      </g>
+                      <image
+                        x={finalX}
+                        y={finalY}
+                        width={finalWidth}
+                        href={logo}
+                      />
                     );
                   }}
-                //   content={(props) => {
-                //     const {
-                //       x = 0,
-                //       y = 0,
-                //       width = 0,
-                //       height = 0,
-                //       value = "",
-                //     } = props;
-                //     const radius = 10;
-
-                //     return (
-                //       <g>
-                //         <circle
-                //           cx={+x + +width / 2}
-                //           cy={+y - radius}
-                //           r={radius}
-                //           fill="#8884d8"
-                //         />
-                //         <text
-                //           x={+x + +width / 2}
-                //           y={+y - radius}
-                //           fill="#fff"
-                //           textAnchor="middle"
-                //           dominantBaseline="middle"
-                //         >
-                //           {`${value}`.split(" ")[1]}
-                //         </text>
-                //       </g>
-                //     );
-                //   }}
                 />
               </Bar>
             );
